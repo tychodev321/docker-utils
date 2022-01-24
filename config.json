@@ -1,0 +1,9 @@
+{
+    "credHelpers" : {
+        "public.ecr.aws": "ecr-login",
+        "109318180537.dkr.ecr.us-east-1.amazonaws.com": "ecr-login",
+        "109318180537.dkr.ecr.us-west-2.amazonaws.com": "ecr-login",
+        "916025176607.dkr.ecr.us-east-1.amazonaws.com": "ecr-login",
+        "916025176607.dkr.ecr.us-west-2.amazonaws.com": "ecr-login"
+    }
+}
