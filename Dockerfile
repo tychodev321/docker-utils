@@ -3,11 +3,7 @@ FROM docker:19.03.12
 ENV DEBIAN_FRONTEND=noninteractive
 
 ADD config.json /root/.docker/config.json
-# ADD docker-credential-ecr-login /usr/bin/docker-credential-ecr-login
-
-RUN apt update && apt install -y \
-    amazon-ecr-credential-helper \
-    && rm -rf /var/lib/apt/lists/*
+ADD docker-credential-ecr-login /usr/bin/docker-credential-ecr-login
 
 RUN chmod a+x /usr/bin/docker-credential-ecr-login
 
