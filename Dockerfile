@@ -1,6 +1,6 @@
 FROM docker:19.03.12
 
-DEBIAN_FRONTEND=noninteractive
+ENV DEBIAN_FRONTEND=noninteractive
 
 ADD config.json /root/.docker/config.json
 # ADD docker-credential-ecr-login /usr/bin/docker-credential-ecr-login
