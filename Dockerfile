@@ -5,7 +5,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 ADD config.json /root/.docker/config.json
 # ADD docker-credential-ecr-login /usr/bin/docker-credential-ecr-login
 
-RUN apt-get update && apt-get install -y \
+RUN apt update && apt install -y \
     amazon-ecr-credential-helper \
     && rm -rf /var/lib/apt/lists/*
 
