@@ -1,6 +1,6 @@
 {
     "credHelpers" : {
         "public.ecr.aws": "ecr-login",
-        "AWS_ACCOUNT.dkr.ecr.REGION.amazonaws.com": "ecr-login"
+        "AWS_ACCOUNT_ID.dkr.ecr.AWS_REGION.amazonaws.com": "ecr-login"
     }
 }
