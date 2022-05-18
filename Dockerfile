@@ -1,4 +1,4 @@
-FROM docker:19.03.12
+FROM docker:19.03
 
 ADD config.json /root/.docker/config.json
 ADD docker-credential-ecr-login /usr/bin/docker-credential-ecr-login
